@@ -22,6 +22,8 @@ discord_handler_noonserv/
 │   ├── bot.js                   # Main bot entry point
 │   ├── Core/
 │   │   └── Client.js            # Client monitoring and health checks
+│   ├── Models/
+│   │   └── test.js              # Test Model Mongoose
 │   ├── Handlers/
 │   │   ├── AntiCrash.js         # Error handling and crash prevention
 │   │   ├── Commands.js          # Slash command loader and registration
