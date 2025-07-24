@@ -6,6 +6,7 @@ import dotenv from 'dotenv';
 import loadCommands from "./Handlers/Commands.js";
 import loadEvents from "./Handlers/Events.js";
 import loadPrefix from "./Handlers/Prefix.js";
+import loadModels from "./Handlers/Models.js";
 
 // Load .env
 dotenv.config();
@@ -25,6 +26,6 @@ const client = new Client({
   await loadCommands(client);
   await loadEvents(client);
   await loadPrefix(client);
-  await loadLogs(client);
+  await loadModels(client);
   await client.login(process.env.TOKEN);
 })();

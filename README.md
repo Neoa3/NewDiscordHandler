@@ -249,14 +249,15 @@ export default {
 2. Create a feature branch
 3. Make your changes
 4. Test thoroughly
-5. Submit a pull request
+5. Submit a pull 
 
-## 🆘 Support
+## 📦 Update v1.1.0
 
-If you need help setting up or using the bot, feel free to reach out:
-
-- 💬 **Discord Support Server**: [Join Here](https://discord.gg/wG3acZWPBv)
-- 📧 **Contact the developer**: [neo.x8](https://discord.com/users/1316110658257031300)
+1. 😁 Detect and resolve all errors.
+2. ✅ Added automatic MongoDB connection using `MONGO_URI`
+3. 📂 Models are now auto-loaded from the `SRC/Models/` folder on startup
+4. 🛠️ Collections are created automatically if not found
+5. 🚫 Improved error handling for missing or invalid DB connections
 
 ## 🔄 Updates
 
@@ -265,6 +266,14 @@ Stay updated with the latest Discord.js features and security patches by regular
 ```bash
 npm update
 ```
+
+## 🆘 Support
+
+If you need help setting up or using the bot, feel free to reach out:
+
+- 📩 **Communication via email**: [neo@noonserv.com](mailto:neo@noonserv.com) 
+- 💬 **Discord Support Server**: [Join Here](https://discord.gg/wG3acZWPBv)
+- 📧 **Contact the developer**: [neo.x8](https://discord.com/users/1316110658257031300)
 
 ---
 
