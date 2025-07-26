@@ -274,7 +274,6 @@ npm update
 If you need help setting up or using the bot, feel free to reach out:
 
 - 📩 **Communication via email**: [neo@noonserv.com](mailto:neo@noonserv.com) 
-- 💬 **Discord Support Server**: [Join Here](https://discord.gg/wG3acZWPBv)
 - 📧 **Contact the developer**: [neo.x8](https://discord.com/users/1316110658257031300)
 
 ---
