@@ -12,7 +12,7 @@ export default {
         .then(msg => setTimeout(() => msg.delete().catch(() => { }), 3000));
     }
 
-    const prefix = process.env.PREFIX || '$';
+    const prefix = process.env.BOT_PREFIX || '$';
 
     // 📦 Prefix Commands
     if (message.content.startsWith(prefix)) {
